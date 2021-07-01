@@ -1,0 +1,40 @@
+.report-header{
+    width: calc(100% - 100px);
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.report-header-text{
+    margin-right: 20px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.report-wrap{
+    width: 100%;
+    height: calc(100% - 80px);
+
+    display: flex;
+
+    justify-content: space-around;
+}
+.date-picker-button{
+    height: 40px;
+}
+
+.date{
+    color: #42ade5;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.date-hover-calendar{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    z-index: 300;
+    transition-duration: 0.4s;
+    overflow: hidden;
+}

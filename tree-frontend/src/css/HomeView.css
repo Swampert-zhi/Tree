@@ -1,0 +1,33 @@
+.layout{
+    height: 100%;
+    background: rgba(210, 243, 255, 0.6);
+}
+.site-layout-content {
+    padding: 24px;
+    background: #fff;
+}
+
+.footer{
+    height:40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-num-bar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:10px;
+    right:150px;
+    height: 40px;
+    width:100px;
+    border-radius: 20px;
+    border: 2px solid rgba(227, 227, 227, 0.34);
+    color: white;
+    font-weight: bold;
+    cursor: default;
+    line-height: normal;
+}

@@ -1,0 +1,11 @@
+.card-content-ul-header{
+    font-size: 16px;
+    font-weight: bolder;
+
+    display: flex;
+    align-items: center;
+}
+
+.card-content-ul-content{
+    font-size: 14px;
+}

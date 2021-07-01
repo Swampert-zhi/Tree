@@ -1,0 +1,133 @@
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-wrap{
+    width: 250px;
+    height: 350px;
+    background: none;
+
+    transition-duration: 0.3s;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+
+}
+
+.card-background{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    filter: blur(10px);
+    z-index: -1;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-background-hover{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-wrap:hover{
+    box-shadow: 0px 0px 10px #656565;
+    transition-duration: 0.3s;
+}
+
+
+.card-header{
+    width: 100%;
+    padding: 5px;
+
+    background: rgba(128, 128, 128, 0.6);
+    transition-duration: 0.5s;
+}
+
+.card-header-body{
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+
+    background: none;
+    transition-duration: 0.3s;
+}
+
+.card-header-hover{
+    width: 200px;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.card-content{
+    width: 100%;
+    padding: 5px;
+
+    background: rgba(128, 128, 128, 0.6);
+    transition: 0.5s;
+}
+
+.card-content-body{
+    width: 100%;
+    height: 100%;
+    /*background: white;*/
+}
+
+.card-content-body::-webkit-scrollbar{
+    width: 8px;
+    padding: 0.5px;
+    background: none;
+}
+
+.card-content-body::-webkit-scrollbar-thumb{
+    background: rgba(173, 173, 173, 0);
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.card-content-body::-webkit-scrollbar-thumb:hover{
+    background: rgba(255, 255, 255, 0.78);
+    transition: 0.5s;
+}
+
+.card-content-ul{
+    width: 90%;
+    margin: 0;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.card-content-ul>li{
+    margin:3px 0 7px 0;
+    color: white;
+}
+
+.card-bottom{
+    margin-top: 20px;
+}
